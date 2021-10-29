@@ -1,0 +1,19 @@
+{
+  "name": "min-repo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "lib": "node lib.js",
+    "index": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "axios": "^0.24.0",
+    "webpack": "^5.61.0",
+    "webpack-cli": "^4.9.1"
+  }
+}
